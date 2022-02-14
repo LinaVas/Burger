@@ -1,0 +1,237 @@
+/*
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+    color: #FAF9F9;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{
+  display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{
+  text-decoration: none;
+color:#000;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{
+  font-size:inherit;
+  font-weight: 400;}
+/*--------------------*/
+
+body {
+  max-width: 1920px;
+}
+.hero {
+  background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+  
+}
+.content {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.content-text {
+  max-width: 580px;
+  margin-top: 170px;
+  margin-bottom: 170px;
+}
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 140px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+h1 span {
+  color: #FBB731;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  display: block;
+  margin-bottom: 10px;
+}
+.content-text p {
+  color: #DEDEDE;
+  font-size: 19px;
+  line-height: 1.4;
+  margin-bottom: 42px;
+}
+.order {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #1E2F40;
+  background-color: #FBB731;
+  display: inline-block;
+  padding: 20px 45px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.img {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  position: relative;
+}
+.hero-img {
+  width: 432px;
+  height: 100%;
+  background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+img {
+  width: 829px;
+  position: absolute;
+  right: -168px;
+}
+
+
+/* Второй экран */
+
+.banners {
+  padding-top: 185px;
+  padding-bottom: 185px;
+}
+
+.banner-1 {
+  width: 580px;
+  height: 395px;
+  background-repeat: no-repeat;
+  background-image: url(https://b.radikal.ru/b04/2202/70/8b8d212602eb.png);
+}
+.banner-text {
+  margin-top: 110px;
+  margin-left: 50px;
+}
+.label {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 900;
+  display: inline-block;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px 18px;
+  border-radius: 14px;
+  background-color: #F37335;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sale {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 76px;
+  margin-bottom: 10px;
+}
+.banner-text p {
+  font-size: 15px;
+  line-height: 24px;
+  max-width: 70%;
+}
+.banner-2 {
+  width: 580px;
+  height: 395px;
+  background-repeat: no-repeat;
+  background-image: url(https://c.radikal.ru/c03/2202/ba/10f5722a589e.png);
+}
+.free {
+  font-family: Nunito Sans;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 56px;
+  margin-bottom: 10px;
+}
+.banner-text p {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+
+.footer {
+  background: #1E2F40;
+  padding-top: 111px;
+  font-size: 15px;
+  line-height: 24px;
+  
+}
+.logo {}
+.icon {
+  Width: 63px;
+  Height: 56px;
+  background-image: url(https://d.radikal.ru/d00/2202/37/2f36899b3058.png);
+}
+.burger {}
+.footer .bg {}
+.menu {}
+h5 {
+  font-family: Nunito Sans;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+}
+.menu ul {}
+.menu li {
+  margin-bottom: 9px;
+}
+li a {
+  color: #DEDEDE;
+}
+.contacts {
+}
+.time, .adress {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.time span, .adress span{ 
+  font-weight: 400;
+  display: block;
+  margin-bottom: 2px;
+}
+.phone {}
+a.tel {
+  font-family: Nunito Sans;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 38px;
+  color: #FBB731;
+  display: block;
+}
